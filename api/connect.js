@@ -123,7 +123,7 @@ if (method === "POST" && path.includes("users")) {
     // --- validasi asal domain (lebih fleksibel) ---
     let origin = (req.headers.origin || "").replace(/\/$/, ""); // hapus trailing slash
     const allowedOrigins = [
-      "https://wanz-xcviv2free.vercel.app",
+      "https://xcvifree.wanzofficial.biz.id",
     ];
 
     // deteksi kecocokan domain
@@ -317,7 +317,7 @@ if (method === "POST" && path.includes("pair")) {
     // --- origin validation (lebih fleksibel) ---
     let origin = (req.headers.origin || "").replace(/\/$/, "");
     const allowedOrigins = [
-      "https://wanz-xcviv2free.vercel.app",
+      "https://xcvifree.wanzofficial.biz.id",
     ];
 
     const isAllowed = allowedOrigins.some(o => origin.startsWith(o));
